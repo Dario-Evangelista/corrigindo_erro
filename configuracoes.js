@@ -45,14 +45,11 @@ mudarSenha.addEventListener('keyup', () => {
     }
 });
 
-// Restante do código...
+
 
 form.addEventListener('submit', function(e) {
     e.preventDefault();
 
-    // Restante do código...
-
-    // Atualizar os dados do usuário
     user.novoNomeEmpresa = nomeEmpresa.value.trim();
     user.novoCNPJ = cnpj.value.trim();
     user.novoUser = newUser.value.trim();
